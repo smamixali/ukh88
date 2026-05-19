@@ -1,0 +1,36 @@
+/*  this line gives a grey background to the webpage. */
+    body{
+	background-color: #cccccc; font-family:"Palatino Linotype";
+	}
+
+/* this gives white background to the webpage and width and hieght as well as top backgroung image .  */	
+	#content { 
+	min-width: 450px;  max-width: 960px;                                 
+	  background-color:white;
+	  margin: 0px auto; 
+	  text-align: left;
+	  position:relative;
+	  overflow:auto;
+	  border-top:45px solid #551011;
+	  background-image: url();
+	  clear:both;  background-repeat:no-repeat;   background-position:top right;   padding:33px 0px 0px 0px;}
+	   
+	   /*this gives the border top and bottom border color to Quiz div tag.*/
+	   #quiz{border-top:3px solid #551011;border-bottom:3px solid #551011;
+	   clear:both;  background-repeat:no-repeat;   background-position:center right;   padding:5px 5px 30px 5px; }
+             			 
+	  /*this style  will apply font and color font for the headers  */
+      h1,h2,h3{font-family: "Lucida Sans Unicode" ; color: #808080;}
+		
+		h1{text-indent: 1em;}
+		
+		/*this style more specific to header h2 which gives it abockground image  */	
+		h2{background-repeat: no-repeat; background-position: left; text-indent: 1em; padding: 0px 10px 0px 0px;  }
+            img{border:2px solid #551011;}
+			
+			/*this style will apply on footer section , which makes it smaller and in the right side.	*/
+	
+            #footer p{ padding:1em;  clear:both;  font-size: 80%;  text-align: right; }
+			  
+             			  
+	   
